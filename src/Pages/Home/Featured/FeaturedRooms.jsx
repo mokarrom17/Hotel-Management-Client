@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import FeaturedRoom from "./FeaturedRoom";
 
 const FeaturedRooms = () => {
     const [rooms, setRooms] = useState([])
@@ -15,8 +16,14 @@ const FeaturedRooms = () => {
                 <h3 className="text-5xl font-bold mb-4">Featured Rooms</h3>
                 <p className="text-2xl">Every room type has many rooms. Anyone can send booking requrest from this site.</p>
             </div>
-            <div>
-                <h2>Rooms:{rooms.length}</h2>
+            <div className="grid grid-cols-3 gap-5 mt-6">
+
+                {
+                    rooms.map(room => <FeaturedRoom
+                        key={room._id}
+                        room={room}
+                    ></FeaturedRoom>)
+                }
             </div>
         </div>
     );
