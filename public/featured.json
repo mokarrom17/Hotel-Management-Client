@@ -1,0 +1,141 @@
+[
+    {
+        "roomId": "room001",
+        "roomNumber": "201",
+        "floor": 2,
+        "type": "deluxe",
+        "capacity": 3,
+        "description": "Experience luxury in our deluxe room with a private balcony offering breathtaking ocean views.",
+        "amenities": [
+            "free wifi",
+            "TV",
+            "air conditioning",
+            "private balcony with ocean view"
+        ],
+        "price": {
+            "currency": "USD",
+            "amount": 150.00
+        },
+        "availability": {
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+        },
+        "image": "https://i.ibb.co/3W5C9fp/1.jpg"
+    },
+    {
+        "roomId": "room002",
+        "roomNumber": "301",
+        "floor": 3,
+        "type": "executive suite",
+        "capacity": 4,
+        "description": "Indulge in the ultimate luxury with our executive suite, featuring a private spa and minibar.",
+        "amenities": [
+            "free wifi",
+            "TV",
+            "air conditioning",
+            "minibar",
+            "private spa"
+        ],
+        "price": {
+            "currency": "USD",
+            "amount": 250.00
+        },
+        "availability": {
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+        },
+        "image": "https://i.ibb.co/DfgfPPv/2.jpg"
+    },
+    {
+        "roomId": "room003",
+        "roomNumber": "102",
+        "floor": 1,
+        "type": "family",
+        "capacity": 5,
+        "description": "Enjoy a comfortable stay with your family in our spacious family room with connecting rooms.",
+        "amenities": [
+            "free wifi",
+            "TV",
+            "air conditioning",
+            "connecting rooms"
+        ],
+        "price": {
+            "currency": "USD",
+            "amount": 120.00
+        },
+        "availability": {
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+        },
+        "image": "https://i.ibb.co/Sr95bsX/3.jpg"
+    },
+    {
+        "roomId": "room004",
+        "roomNumber": "115",
+        "floor": 1,
+        "type": "standard",
+        "capacity": 2,
+        "description": "Experience a cozy and budget-friendly stay in our standard room with essential amenities.",
+        "amenities": [
+            "free wifi",
+            "TV",
+            "air conditioning"
+        ],
+        "price": {
+            "currency": "USD",
+            "amount": 80.00
+        },
+        "availability": {
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+        },
+        "image": "https://i.ibb.co/f0Q0dRz/4.jpg"
+    },
+    {
+        "roomId": "room005",
+        "roomNumber": "401",
+        "floor": 4,
+        "type": "romantic suite",
+        "capacity": 2,
+        "description": "Ignite the spark in our romantic suite with a whirlpool tub and personalized rose petal turn-down service.",
+        "amenities": [
+            "free wifi",
+            "TV",
+            "air conditioning",
+            "whirlpool tub",
+            "rose petal turn-down service"
+        ],
+        "price": {
+            "currency": "USD",
+            "amount": 200.00
+        },
+        "availability": {
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+        },
+        "image": "https://i.ibb.co/ZcGFk87/5.jpg"
+    },
+    {
+        "roomId": "room006",
+        "roomNumber": "118",
+        "floor": 1,
+        "type": "accessible",
+        "capacity": 2,
+        "description": "Experience comfort and accessibility in our specially designed accessible room with an accessible bathroom.",
+        "amenities": [
+            "free wifi",
+            "TV",
+            "air conditioning",
+            "accessible bathroom"
+        ],
+        "price": {
+            "currency": "USD",
+            "amount": 90.00
+        },
+        "availability": {
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+        },
+        "image": "https://i.ibb.co/4RmLRhs/6.jpg"
+    }
+]
