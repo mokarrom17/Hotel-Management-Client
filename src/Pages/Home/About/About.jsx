@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 AOS.init();
 const About = () => {
     return (
-        <div className="max-w-7xl mb-12 mt-12">
+        <div className="max-w-7xl m-12">
             <div className=" flex justify-between">
                 <div className='grid grid-cols-2 gap-5 w-1/2' data-aos="fade-right">
                     <img src={img1} className='rounded-lg h-[300px] w-[300px]' />
