@@ -9,7 +9,7 @@ const Banner = () => {
                         <div className='pl-20 pb-20'>
                             <h2 className='text-white text-6xl font-extrabold  '>SPEND YOUR BEAUTIFUL <br /> MOMENT</h2>
                             <div className='grid grid-cols-5 gap-6  p-6 max-w-6xl mx-auto rounded-lg border mt-5'>
-                                <input className='p-4 rounded-lg' type="date" placeholder='Arrival Time' value='Arrival Time' />
+                                <input className='p-4  rounded-lg' type="date" placeholder='Arrival Time' value='Arrival Time' />
                                 <input className='p-4 rounded-lg' type="date" placeholder='Departure Time' />
                                 <input className='p-4 rounded-lg' type="number" placeholder='Adults' />
                                 <input className='p-4 rounded-lg' type="number" placeholder='Child' />

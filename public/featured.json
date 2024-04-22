@@ -2,7 +2,7 @@
     {
         "_id": "room001",
         "roomNumber": "201",
-        "type": "Deluxe",
+        "type": "Deluxe Queen Room",
         "capacity": 3,
         "adults": 2,
         "child": 1,
@@ -23,7 +23,7 @@
     {
         "_id": "room002",
         "roomNumber": "301",
-        "type": "Executive Suite",
+        "type": "King Ensuite Room",
         "capacity": 4,
         "adults": 2,
         "child": 2,
@@ -66,7 +66,7 @@
     {
         "_id": "room004",
         "roomNumber": "115",
-        "type": "Standard",
+        "type": "Standard Room",
         "capacity": 2,
         "adults": 2,
         "child": 0,
