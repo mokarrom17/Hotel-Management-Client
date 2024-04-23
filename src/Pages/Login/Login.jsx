@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import img from "../../assets/Hotel.jpg";
 const Login = () => {
   const handleLogin = (event) => {
@@ -51,15 +52,24 @@ const Login = () => {
                 <label className="label">
                   <a
                     href="#"
-                    className="label-text-alt link link-hover font-bold text-black"
+                    className="label-text-alt link link-hover font-bold text-black text-1xl"
                   >
                     Forgot password?
                   </a>
                 </label>
               </div>
-              <div className="form-control mt-6">
-                <button className="btn font-bold text-white">Login</button>
+              <div className="form-control">
+                <button className="btn bg-[#FF3811] font-bold text-white">
+                  Login
+                </button>
               </div>
+              <p className="text-black font-bold text-center mx-4">
+                Do Not Have Account ?
+                <Link to={"/signUp"} className="text-[#FF3811]">
+                  {" "}
+                  Sign Up
+                </Link>
+              </p>
             </form>
           </div>
         </div>
