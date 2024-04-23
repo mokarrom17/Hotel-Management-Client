@@ -4,7 +4,7 @@ const Banner = () => {
         <div>
             <div className="carousel w-full rounded-lg">
                 <div id="slide1" className="carousel-item relative w-full">
-                    <img src={banner1} className="w-full m-6j" />
+                    <img src={banner1} className="w-full m-6" />
                     <div className="absolute h-full flex items-end  w-full text-center bg-gradient-to-r from-[#151515] to-[#00000000] ">
                         <div className='pl-20 pb-20'>
                             <h2 className='text-white text-6xl font-extrabold  '>SPEND YOUR BEAUTIFUL <br /> MOMENT</h2>
