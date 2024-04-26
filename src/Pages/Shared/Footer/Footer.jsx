@@ -3,29 +3,6 @@ import { IoIosPaperPlane } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-      <div className=" text-center bg-[#ab8a62] p-16">
-        <h2 className="font-extrabold text-6xl text-white mb-8">
-          Subscribe Newsletter{" "}
-        </h2>
-        <div className="w-1/2 mx-auto">
-          <form className="flex">
-            <div className="form-control w-2/3 text-black">
-              <input
-                type="email"
-                name="email"
-                placeholder="Enter Email Address"
-                className="input bg-white rounded-none"
-                required
-              />
-            </div>
-            <div className="form-control w-1/3">
-              <button className="btn rounded-none bg-black text-white">
-                <IoIosPaperPlane /> Subscribe
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
       <footer className="footer p-10 bg-black text-white ">
         <aside>
           <img className="rounded-full w-20" src={logo} alt="" />

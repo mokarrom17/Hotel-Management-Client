@@ -1,7 +1,7 @@
+import NewsLetter from "../../../NewsLetter/NewsLetter";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import FeaturedRooms from "../Featured/FeaturedRooms";
-import NewsLetter from "../Newsletter/NewsLetter";
 import Offers from "../Offers/Offers";
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
       <About></About>
       <FeaturedRooms></FeaturedRooms>
       <Offers></Offers>
+      <NewsLetter></NewsLetter>
     </div>
   );
 };
