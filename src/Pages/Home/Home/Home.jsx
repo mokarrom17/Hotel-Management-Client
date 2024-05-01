@@ -1,4 +1,4 @@
-import NewsLetter from "../../../NewsLetter/NewsLetter";
+import NewsLetter from "../../NewsLetter/NewsLetter";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import FeaturedRooms from "../Featured/FeaturedRooms";

@@ -1,5 +1,5 @@
 import logo from "../../../assets/royal-hotel-high-resolution-logo.ico";
-import { IoIosPaperPlane } from "react-icons/io";
+
 const Footer = () => {
   return (
     <div>
